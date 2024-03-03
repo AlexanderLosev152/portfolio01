@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@import "default/media";
+@import "default/variables";
+@import "default/mixins";
+@import "default/normalize";
+@import "default/typograpfy";
+@import "default/container";
+
+@import "blocks/header";
+@import "blocks/menu-icon";
+@import "blocks/btn";
+@import "blocks/section-img";
+@import "blocks/heading";
+@import "blocks/home";
+@import "blocks/about";
+@import "blocks/services";
+@import "blocks/portfolio";
+@import "blocks/contact";
+@import "blocks/footer";
+@import "blocks/iconTop";
+@import "blocks/homeImg-animation";

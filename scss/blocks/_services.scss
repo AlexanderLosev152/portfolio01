@@ -1,0 +1,38 @@
+.services {
+  h2 {
+    margin-bottom: 5rem;
+    @include mobile {
+      margin-bottom: 1.5rem;
+    }
+  }
+  &__container {
+    @include grid(400px);
+    @include tablet {
+      @include grid(300px);
+    }
+    gap: 2rem;
+  }
+  &__box {
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 2rem;
+    border: 0.2rem solid var(--bg-color);
+    transition: 0.5s ease;
+    i {
+      font-size: 7rem;
+      color: var(--main-color);
+    }
+    p {
+      margin: 1rem 0 3rem;
+    }
+    @include hover {
+      border-color: var(--main-color);
+      transform: scale(1.02);
+    }
+  }
+}

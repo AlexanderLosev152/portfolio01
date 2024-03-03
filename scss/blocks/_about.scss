@@ -1,0 +1,21 @@
+.about {
+  @include grid(600px);
+  @include tablet {
+    @include grid(300px);
+    text-align: center;
+  }
+  gap: 2rem;
+  background: var(--second-bg-color);
+  &__content {
+    @include tablet {
+      grid-row-start: 1;
+    }
+    h2 {
+      text-align: left;
+      @include tablet {
+        text-align: center;
+        grid-row-start: 1;
+      }
+    }
+  }
+}
